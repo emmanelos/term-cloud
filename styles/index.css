@@ -52,6 +52,13 @@ body{
   word-break: break-word;
   hyphens: auto;
   font-weight: bold;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.phrase:hover{
+  transform: scale(1.07);
+    color: #1D62EB;
 }
 
 .phrase2, .phrase4, .phrase5, .phrase8, .phrase9{
@@ -60,7 +67,6 @@ body{
 
 .phrase1{
   font-size: 3em;
-  color: #1D62EB;
 }
 
 .phrase2{
@@ -82,7 +88,6 @@ body{
 
 .phrase6{
   font-size: 4.625em;
-  color: #1D62EB;
 }
 
 .phrase7{
