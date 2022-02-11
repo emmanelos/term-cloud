@@ -1,0 +1,147 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cloud{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  gap: 2em;
+  font-size: .15em;
+}
+
+.phrases{
+  display: flex;
+  gap: 1em;
+}
+
+.phrases1{
+  width: 60%;
+}
+
+.phrases2{
+  width:80%
+}
+
+.phrases3{
+  width: 100%;
+}
+
+.phrases4{
+  width: 80%;
+}
+
+.phrase{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  word-break: break-word;
+  hyphens: auto;
+  font-weight: bold;
+}
+
+.phrase2, .phrase4, .phrase5, .phrase8, .phrase9{
+  font-size: 2.75em;
+}
+
+.phrase1{
+  font-size: 3em;
+  color: #1D62EB;
+}
+
+.phrase2{
+  position: relative;
+  bottom: .1em;
+}
+
+
+.phrase3{
+  position: relative;
+  top: 1em;
+  font-size: 2.1875em;
+}
+
+.phrase5{
+  position: relative;
+  top: .8em;
+}
+
+.phrase6{
+  font-size: 4.625em;
+  color: #1D62EB;
+}
+
+.phrase7{
+    position: relative;
+  bottom: .6em;
+  font-size: 2.125em;
+}
+
+.phrase9{
+  position: relative;
+  bottom: .6em;
+  font-size: 2.125em;
+}
+
+
+@media (min-width: 23.4375em) { 
+  .cloud{
+    font-size: .2em;
+  }
+}
+
+@media (min-width: 26.5625em) { 
+  .cloud{
+    font-size: .25em;
+  }
+}
+
+@media (min-width: 26.5625em) { 
+  .cloud{
+    font-size: .25em;
+  }
+}
+
+@media (min-width: 48em) { 
+  .cloud{
+    font-size: .35em;
+  }
+}
+
+@media (min-width: 64em) { 
+  .cloud{
+    font-size: .45em;
+  }
+}
+
+@media (min-width: 80em) { 
+  .cloud{
+    font-size: .6em;
+  }
+}
+
+@media (min-width: 90em) { 
+  .cloud{
+    font-size: .65em;
+  }
+}
+
+@media (min-width: 160em) { 
+  .cloud{
+    font-size: 1.1em;
+  }
+}
